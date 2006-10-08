@@ -1,6 +1,7 @@
 %define		_plugin	abook_import_export
 %define		mversion	1.4.4
-Summary:	A squirrel LDIF Address Book Import plug-in
+Summary:	A squirrelmail plugin to import address books
+Summary(pl):	Wtyczka squirrelmaila do importu ksi±¿ek adresowych
 Name:		squirrelmail-plugin-%{_plugin}
 Version:	1.0
 Release:	1
@@ -17,8 +18,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_sysconfdir	/etc/webapps/squirrelmail
 
 %description
-Allows for the importing of addressbooks from a CSV (comma separated values)
-file. This will be located at the bottom of the "Addresses" section.
+Allows for the importing of addressbooks from a CSV (comma separated
+values) file. This will be located at the bottom of the "Addresses"
+section.
+
+%description -l pl
+Ta wtyczka pozwala na importowanie ksi±¿ek adresowych z plików w
+formacie CSV (comma separated values). Umieszcza siê w sekcji
+"Adresy".
 
 %prep
 %setup -q -n %{_plugin}
