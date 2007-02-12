@@ -1,7 +1,7 @@
 %define		_plugin	abook_import_export
 %define		mversion	1.4.4
 Summary:	A squirrelmail plugin to import address books
-Summary(pl):	Wtyczka squirrelmaila do importu ksi±¿ek adresowych
+Summary(pl.UTF-8):   Wtyczka squirrelmaila do importu ksiÄ…Å¼ek adresowych
 Name:		squirrelmail-plugin-%{_plugin}
 Version:	1.0
 Release:	1
@@ -22,9 +22,9 @@ Allows for the importing of addressbooks from a CSV (comma separated
 values) file. This will be located at the bottom of the "Addresses"
 section.
 
-%description -l pl
-Ta wtyczka pozwala na importowanie ksi±¿ek adresowych z plików w
-formacie CSV (comma separated values). Umieszcza siê w sekcji
+%description -l pl.UTF-8
+Ta wtyczka pozwala na importowanie ksiÄ…Å¼ek adresowych z plikÃ³w w
+formacie CSV (comma separated values). Umieszcza siÄ™ w sekcji
 "Adresy".
 
 %prep
