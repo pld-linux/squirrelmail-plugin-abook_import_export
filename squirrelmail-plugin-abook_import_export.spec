@@ -1,7 +1,7 @@
 %define		_plugin	abook_import_export
 %define		mversion	1.4.4
 Summary:	A squirrelmail plugin to import address books
-Summary(pl.UTF-8):   Wtyczka squirrelmaila do importu książek adresowych
+Summary(pl.UTF-8):	Wtyczka squirrelmaila do importu książek adresowych
 Name:		squirrelmail-plugin-%{_plugin}
 Version:	1.0
 Release:	1
