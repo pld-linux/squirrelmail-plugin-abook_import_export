@@ -3,15 +3,15 @@
 Summary:	A squirrelmail plugin to import address books
 Summary(pl.UTF-8):	Wtyczka squirrelmaila do importu książek adresowych
 Name:		squirrelmail-plugin-%{_plugin}
-Version:	1.0
+Version:	1.1
 Release:	1
 License:	GPL v2
 Group:		Applications/Mail
 Source0:	http://www.squirrelmail.org/plugins/%{_plugin}-%{version}-%{mversion}.tar.gz
-# Source0-md5:	48098d57e81df8ea71e33351b51c1938
+# Source0-md5:	29708739d856ad4d1a18bd6e840316a4
 URL:		http://www.squirrelmail.org/plugin_view.php?id=29
 Requires:	squirrelmail >= 1.4.4
-Requires:	squirrelmail-compatibility-2.0.4
+Requires:	squirrelmail-compatibility >= 2.0.4
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_plugindir	%{_datadir}/squirrelmail/plugins/%{_plugin}
